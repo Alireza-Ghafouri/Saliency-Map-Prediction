@@ -1,0 +1,23 @@
+optimizer:
+  lr: 0.00015
+  momentum: 0.9
+  weight_decay: 0.005
+  nesterov: True
+
+lr_scheduler:
+  step_size: 5
+  gamma: 0.25
+
+training:
+  num_epochs: 50
+  device: 'cuda'
+  batch_size: 32
+
+
+paths:
+  weights_root: ./weights
+  results_root: ./results
+  data:
+    dataset_dir: ./saliency_dataset/unzipped_trainSet
+    zip_path: ./saliency_dataset/trainSet.zip
+    download_url: http://saliency.mit.edu/trainSet.zip

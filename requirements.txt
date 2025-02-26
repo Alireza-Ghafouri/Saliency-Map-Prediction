@@ -1,0 +1,11 @@
+matplotlib==3.10.0
+numpy==2.2.3
+omegaconf==2.3.0
+opencv_python==4.11.0.86
+Requests==2.32.3
+torch==2.6.0+cu118
+torchvision==0.21.0+cu118
+tqdm==4.66.5
+tqdm==4.67.1
+black
+pipreqs
